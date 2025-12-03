@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        
+        <title id = "test">0</title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <img id = "photo" src = "gibberdlelogowebsite.png" width = "500" height = "150">
+            <h3></h3>
+        </div>
+        <p></p>
+        <div class="header">
+        </div>
+    </body>
+    <script>
+        for (let i = 0; i < 5; i++){
+          document.addEventListener('input', function(event) {
+            const inputId = event.target.id;
+            indextest = inputs.indexOf(inputId)
+            if (event.target.value != "e") {
+                i = i + 1
+                document.getElementById("test").innerHTML = i;
+            }
+          }
+    </script>
+</html>
